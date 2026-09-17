@@ -1,0 +1,6 @@
+{
+  "name": "TRỤC SỐ TƯƠNG TÁC – TẬP HỢP VÀ CÁC PHÉP TOÁN",
+  "description": "Ứng dụng giáo dục Toán 10 THPT trực quan hóa tập hợp, khoảng, đoạn, nửa khoảng và các phép toán giao, hợp, hiệu trên trục số.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

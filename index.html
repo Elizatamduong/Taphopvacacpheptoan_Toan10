@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRỤC SỐ TƯƠNG TÁC – TẬP HỢP VÀ CÁC PHÉP TOÁN</title>
+    <meta name="description" content="Ứng dụng giáo dục Toán 10 THPT trực quan hóa tập hợp, khoảng, đoạn, nửa khoảng và các phép toán giao, hợp, hiệu trên trục số." />
+    <meta property="og:title" content="TRỤC SỐ TƯƠNG TÁC – TẬP HỢP VÀ CÁC PHÉP TOÁN" />
+    <meta property="og:description" content="Ứng dụng giáo dục Toán 10 THPT trực quan hóa tập hợp, khoảng, đoạn, nửa khoảng và các phép toán giao, hợp, hiệu trên trục số." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Fix environments where window.fetch has only a getter
+      (function() {
+        try {
+          var currentFetch = window.fetch ? window.fetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return currentFetch;
+            },
+            set: function(val) {
+              currentFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {
+          try {
+            if (typeof Window !== 'undefined' && Window.prototype) {
+              var protoFetch = Window.prototype.fetch;
+              Object.defineProperty(Window.prototype, 'fetch', {
+                get: function() {
+                  return protoFetch;
+                },
+                set: function(val) {
+                  protoFetch = val;
+                },
+                configurable: true,
+                enumerable: true
+              });
+            }
+          } catch (_) {}
+        }
+      })();
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-['Be_Vietnam_Pro',sans-serif]">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
